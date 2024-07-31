@@ -1,4 +1,4 @@
-{% set version = "2.7.15" %}
+{% set version = "2.7.16" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -11,7 +11,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/dataRetrieval_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/dataRetrieval/dataRetrieval_{{ version }}.tar.gz
-  sha256: 299cf2c8eb6ff42e5da550e8347d49f43dc9f122cf7d57e1000fdb400a32b340
+  sha256: 016ea39d6bb83d2dd6d2f075ed730cd955eede8190baf14197c67ebf039a1c86
 
 build:
   noarch: generic
