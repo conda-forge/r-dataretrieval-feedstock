@@ -26,7 +26,7 @@ requirements:
   host:
     - r-base
     - r-curl
-    - r-httr >=1.0.0
+    - r-httr2 >=1.0.0
     - r-jsonlite
     - r-lubridate >=1.5.0
     - r-readr >=1.4.0
@@ -35,7 +35,7 @@ requirements:
   run:
     - r-base
     - r-curl
-    - r-httr >=1.0.0
+    - r-httr2 >=1.0.0
     - r-jsonlite
     - r-lubridate >=1.5.0
     - r-readr >=1.4.0
