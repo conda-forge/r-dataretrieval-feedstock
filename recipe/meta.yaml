@@ -1,4 +1,4 @@
-{% set version = "2.7.18" %}
+{% set version = "2.7.19" %}
 
 {% set posix = 'm2-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/dataRetrieval_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/dataRetrieval/dataRetrieval_{{ version }}.tar.gz
-  sha256: bdabfa5fafb86c661708d147278c38ccfe4aca28beac95e373633109243da02a
+  sha256: 50e5a13be3c6ab96f497d0fdb846d9e8268de0afd707983619a11b2e8cbc4b99
 
 build:
   noarch: generic
