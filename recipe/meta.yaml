@@ -26,20 +26,24 @@ requirements:
   host:
     - r-base
     - r-curl
-    - r-httr2 >=1.0.0
-    - r-jsonlite
     - r-lubridate >=1.5.0
-    - r-readr >=1.4.0
     - r-xml2
+    - r-readr >=1.4.0
+    - r-jsonlite
+    - r-httr2
+    - r-whisker
+    - r-sf
 
   run:
     - r-base
     - r-curl
-    - r-httr2 >=1.0.0
-    - r-jsonlite
     - r-lubridate >=1.5.0
-    - r-readr >=1.4.0
     - r-xml2
+    - r-readr >=1.4.0
+    - r-jsonlite
+    - r-httr2
+    - r-whisker
+    - r-sf
 
 test:
   commands:
