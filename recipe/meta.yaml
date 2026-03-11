@@ -37,7 +37,7 @@ requirements:
 
   run:
     - r-base
-    - r-curl
+    - r-curl >=7.0.0
     - r-lubridate >=1.5.0
     - r-xml2
     - r-readr >=1.4.0
@@ -45,6 +45,7 @@ requirements:
     - r-httr2
     - r-whisker
     - r-sf
+    - r-data.table
 
 test:
   commands:
